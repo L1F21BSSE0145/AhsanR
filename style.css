@@ -1,53 +1,47 @@
-/* Basic reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body and basic text styling */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
-    color: #333;
 }
 
-/* Header Styling */
 header {
-    background-color: #4CAF50;
+    background: #35424a;
     color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-/* Section Styling */
-section {
-    margin: 20px;
+    padding: 10px 0;
     text-align: center;
 }
 
-/* Button Styling */
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
 button {
-    background-color: #4CAF50;
-    color: white;
     padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #4cae4c;
 }
 
-/* Footer Styling */
 footer {
     text-align: center;
-    background-color: #333;
-    color: white;
     padding: 10px 0;
-    position: fixed;
-    width: 100%;
+    background: #35424a;
+    color: white;
+    position: relative;
     bottom: 0;
+    width: 100%;
 }
+
 
